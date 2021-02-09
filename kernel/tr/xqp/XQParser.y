@@ -6,9 +6,9 @@
 %skeleton "lalr1.cc"
 %require "2.3"
 %defines
-%name-prefix="sedna"
-%define "parser_class_name" "XQueryParser"
-%error-verbose
+%define api.prefix {sedna}
+%define api.parser.class {XQueryParser}
+%define parse.error verbose
 
 %{
 

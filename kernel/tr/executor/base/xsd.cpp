@@ -104,7 +104,7 @@ char * encodePtr(char * c, uintptr_t p) {
     memcpy(c, &b, sizeof(uintptr_t)); c += sizeof(uintptr_t);
 
     for (int i = 0; i < ((int) sizeof(uintptr_t)); i++, ca++, cb++) {
-        if (cb == '\0') {
+        if (*cb == '\0') {
             * (uint8_t *) cb = 0xf0;
             * (uint8_t *) ca = 0x0f;
         }

@@ -3,8 +3,8 @@
  * Copyright (C) 2004 The Institute for System Programming of the Russian Academy of Sciences (ISP RAS)
  */
 
-#ifndef _STRINGS_H
-#define _STRINGS_H
+#ifndef SEDNA_STRINGS_H
+#define SEDNA_STRINGS_H
 
 /**
 
