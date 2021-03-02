@@ -73,3 +73,28 @@ SUPPORT
    Archive of the mail list you can find here:
 
        http://news.gmane.org/gmane.text.xml.sedna
+
+
+== How to build and install on Ubuntu ==
+
+>sudo apt-get install cmake cmake-gui
+>sudo apt install build-essential gcc flex bison
+
+
+clone from git
+>git clone
+>cd SEDNA_SOURCES
+
+create build path
+>mkdir bld
+>cd bld
+
+set install path
+>cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/sedna
+
+make and install
+>make
+>make install
+
+Create C driver
+>make sedna_library
