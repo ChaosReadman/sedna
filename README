@@ -98,3 +98,9 @@ make and install
 
 Create C driver
 >sudo make sedna_library
+
+put environment variable path to .profile  
+===.profile===  
+export PATH=$PATH:/usr/localsedna/bin  
+
+
