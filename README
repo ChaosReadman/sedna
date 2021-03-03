@@ -101,7 +101,7 @@ Create C driver
 
 put environment variable path to .profile  
 ===.profile===  
-export PATH=$PATH:/usr/localsedna/bin  
+export PATH=$PATH:/usr/local/sedna/bin  
 
 
 Chmod to change folder access right  
