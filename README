@@ -104,3 +104,7 @@ put environment variable path to .profile
 export PATH=$PATH:/usr/localsedna/bin  
 
 
+Chmod to change folder access right  
+sudo chmod 777 /usr/local/sedna/cfg
+sudo chmod 777 /usr/local/sedna/data
+
