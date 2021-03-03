@@ -94,7 +94,7 @@ set install path
 
 make and install
 >make
->make install
+>sudo make install
 
 Create C driver
->make sedna_library
+>sudo make sedna_library
