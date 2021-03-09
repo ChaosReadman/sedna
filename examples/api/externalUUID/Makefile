@@ -1,6 +1,6 @@
 
 
-CF=-I../../../../include -I/usr/local/sedna/include -fPIC -luuid
+CF=-I../../../../include -I/usr/local/sedna/include -fPIC
 
 OS := $(shell (uname | sed 's/^CYGWIN_NT.*$$/CYGWIN_NT/'))
 ifeq ("$(OS)","CYGWIN_NT")
