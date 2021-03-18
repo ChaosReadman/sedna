@@ -75,36 +75,3 @@ SUPPORT
        http://news.gmane.org/gmane.text.xml.sedna
 
 
-== How to build and install on Ubuntu ==
-
->sudo apt-get install cmake cmake-gui
->sudo apt install build-essential gcc flex bison
-
-
-clone from git
->git clone
->cd SEDNA_SOURCES
-
-create build path
->mkdir bld
->cd bld
-
-set install path
->cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/sedna
-
-make and install
->make
->sudo make install
-
-Create C driver
->sudo make sedna_library
-
-put environment variable path to .profile  
-===.profile===  
-export PATH=$PATH:/usr/local/sedna/bin  
-
-
-Chmod to change folder access right  
-sudo chmod 777 /usr/local/sedna/cfg
-sudo chmod 777 /usr/local/sedna/data
-
